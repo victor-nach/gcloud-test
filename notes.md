@@ -19,3 +19,6 @@
 # viewing logs
 - you can view logs using the `gcloud app logs read` to read the logs for the current app
 - you can alos get a stream of recent logs using `tail` instead of `read` as `gcloud app logs tail`
+
+# environment variables
+- env variables specified in app.yaml are not available when testing on gcloud

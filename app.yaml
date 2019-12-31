@@ -5,5 +5,10 @@ runtime: nodejs
 env: flex
 
 # specify env variables
-env_variables: 
-  age: 20
+env_variables:
+  # I can access this variable on the gcloud
+  AGE: "20"
+  
+  # I didn't bother trying to test this out since apps on app engine read from the .env file directly
+  # env_file:
+  # - some_file.env
