@@ -1,0 +1,27 @@
+{
+  "name": "gcloud-test",
+  "version": "1.0.0",
+  "description": "a simple app to test deployments and resource integrations on google cloud app-engine",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src",
+    "dev": "nodemon src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victor-nach/gcloud-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/victor-nach/gcloud-test/issues"
+  },
+  "homepage": "https://github.com/victor-nach/gcloud-test#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
