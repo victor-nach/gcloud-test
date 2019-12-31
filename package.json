@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "node src",
-    "build": "node src/scripts/build.js",
-    "postbuild": "node src/scripts/post_build.js",
-    "gcp-build": "node src/scripts/gcp_build.js",
+    "build": "rm -rf build && mkdir build && node src/scripts/build.js",
+    "postbuild": "rm -rf post-build && mkdir post-build && node src/scripts/post_build.js",
+    "gcp-build": "rm -rf gcp-build && mkdir gcp-build && node src/scripts/gcp_build.js",
     "dev": "nodemon src",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
