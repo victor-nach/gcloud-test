@@ -3,3 +3,7 @@ runtime: nodejs
 
 # specify whether flexible environment should be used (auto-scaling)
 env: flex
+
+# specify env variables
+env_variables: 
+  age: 20

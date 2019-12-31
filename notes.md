@@ -13,3 +13,9 @@
 - next deploy the app using the `gclopud app deploy` command
 - if you don't specify and app.yaml file it would look for a file named app.yaml in the root directory where the command is being run and deploy
 - without an app.yaml the deployment won't work
+- during deployment a PORT variable is automatically set to 8080, this is the exposed port on appspot...
+- also you can deploy any branch you are on, on the gcloud console
+
+# viewing logs
+- you can view logs using the `gcloud app logs read` to read the logs for the current app
+- you can alos get a stream of recent logs using `tail` instead of `read` as `gcloud app logs tail`
