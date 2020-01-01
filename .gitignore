@@ -102,3 +102,6 @@ dist
 
 # TernJS port file
 .tern-port
+
+# storage service account key 
+gcloud-test-263710-fb62ac414a27.json

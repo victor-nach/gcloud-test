@@ -33,3 +33,7 @@
 
 # github app triggers
 - you can use triggers under gcloud build / trigger
+
+# cloud storage
+- To create a new bucket, go to storage / storage / browser. you would see a list of all the buckets you have there
+- click on the create bucket icon and create the bucket. note that the bucket namespace is global
